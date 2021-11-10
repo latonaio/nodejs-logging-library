@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-logging-library",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "lint": "eslint --fix .",
+    "fix": "npm run format && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/latonaio/nodejs-logging-library.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.org/latonaio/nodejs-logging-library/issues"
+  },
+  "homepage": "https://bitbucket.org/latonaio/nodejs-logging-library#readme",
+  "dependencies": {
+    "date-utils": "^1.2.21",
+    "log4js": "^6.3.0",
+    "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.3.0"
+  },
+  "keywords": []
+}
